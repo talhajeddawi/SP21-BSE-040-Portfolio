@@ -33,7 +33,7 @@ For more information on the importance of a professional README for your reposit
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>My Portfolio Project</b></h3>
 
 </div>
 
@@ -63,11 +63,10 @@ For more information on the importance of a professional README for your reposit
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [MyPortfolioProject] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This repository contains the projects that showcase my skills, experience, and expertise in software development, focusing on web applications, GUIs, and data-driven solutions.
 
-**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
