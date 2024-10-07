@@ -110,7 +110,7 @@ h2{
     margin-top: 24px;
 }
 
-.see-project{
+.button-1{
     
     padding: 12px;
     align-items: center;
@@ -122,4 +122,41 @@ h2{
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
+}
+
+.myself-section{
+    display: flex;
+    padding: 114px 24px;
+    flex-direction: column;
+    align-items: left;
+}
+
+.myself-desc{
+    font-size: 16px;
+    color: var(--Neutrals-N600, #344563);
+}
+
+.lang-heading{
+    display: flex;
+    padding: 16px 26px 16px 12px;
+    align-items: center;
+    gap: 12px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+}
+
+.languages{
+    display: flex;
+    width: 303px;
+    padding: 9px 12px 9.716px 12px;
+    justify-content: left;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    background: var(--Neutrals-N10, #F7F7F9);
+}
+
+.languages-section{
+    margin-bottom: 114px;
 }
