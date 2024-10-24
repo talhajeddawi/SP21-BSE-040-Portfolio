@@ -1,18 +1,25 @@
-body {
-    height: 812px;
-    width: 375px;
-    font-family: "Arial", sans-serif;
-    background-color: #1c1c3c; /* Matches the blue background in the image */
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
-    
-  }
-  
-  .sidebar {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    background-color: #1c1c3c; /* Background color */
+    font-family: "Arial", sans-serif;
+}
+
+.wrapper {
     height: 812px;
     width: 375px;
-    height: 100%;
-    width: 0;
+    background-color: #1c1c3c; /* Matches the blue background */
+    overflow: hidden;
+    position: relative;
+}
+
+.sidebar {
+    height: 812px;
+    width: 375px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -21,35 +28,33 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  }
-  
-  .sidebar a {
-    
+}
+
+.sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #fff;
     display: block;
     transition: 0.3s;
-  }
-  
-  .sidebar a:hover {
+}
+
+.sidebar a:hover {
     color: #f1f1f1;
-  }
-  
-  .sidebar .closebtn {
+}
+
+.sidebar .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
-  }
-  
-  .menu {
+}
+
+.menu {
     font-size: 30px;
     cursor: pointer;
     color: white;
-    position: fixed;
+    position: absolute;
     top: 15px;
     left: 15px;
-  }
-  
+}
