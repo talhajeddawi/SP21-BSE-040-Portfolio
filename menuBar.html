@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidebar Menu</title>
+  <link rel="stylesheet" href="menuStyles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div id="sidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="portfolio.html">About</a>
+    <a href="portfolio.html">Contact</a>
+  </div>
+
+  <span class="menu" onclick="openNav()">☰ Menu</span>
+
+  <script>
+    function openNav() {
+      document.getElementById("sidebar").style.width = "375px";
+    }
+
+    function closeNav() {
+        window.location.href = "portfolio.html";
+    }
+  </script>
+</body>
+</html>
